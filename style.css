@@ -1,0 +1,188 @@
+header{ /*baniere*/
+    background-color:rgb(1, 1, 11);
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+    opacity: inherit;
+    margin-bottom: 1cm;
+}
+h1{
+    text-align: center;
+    line-height: 2;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+}
+
+.menu{
+    list-style: none;
+    color: white;
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.entete{
+    display: flex;
+    justify-content: space-around;
+  color: orange;  
+}
+
+
+img{
+    height: 100px;
+    width: 150px;
+    display: flex;
+    position: absolute;
+    right: 1em;
+}
+
+  body {/*pour l'image en fond*/
+    color:black;
+    background-color:white;
+    background-image:url(https://static.lexpress.fr/medias_12277/w_2044,h_1143,c_crop,x_3,y_7/w_1000,h_563,c_fill,g_north/v1607955735/zwift-home-trainer_6286276.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+.carre1{/*pour faire un texte dans un carré*//*la c'est le carré du texte*/
+    width: 100%;
+    padding: 20% 0 0 0 !important;
+    background-color: black;
+    margin-bottom: 1cm;
+}
+
+.texte1 {
+	position: absolute !important;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.texte1 p {
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px
+}
+
+.box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+.box :first-child {
+      align-self: center;
+}
+.section1{
+    display: flex;
+    background-color: black;  
+    border-radius: 3em;
+}
+.section1{
+    display: flex;
+    text-align: justify;
+    flex-wrap: wrap;
+    margin: 1cm;
+}
+.section2{
+    display: flex;
+    background-color: black;  
+    border-radius: 3em;
+}
+.section2{
+    display: flex;
+    text-align: justify;
+    flex-wrap: wrap;
+    margin: 1cm;
+}
+.section3{
+    display: flex;
+    background-color: black;  
+    border-radius: 3em;     
+}
+.section3{
+    display: flex;
+    text-align: justify;
+    flex-wrap: wrap;
+    margin: 1cm;
+}
+h2{
+    color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    margin-left: auto;
+  margin-right: auto;
+  width: 100px; /* largeur obligatoire pour être centré */
+}
+p{
+    color: white;
+    font-size: 1.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.box2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+.box2 :first-child {
+      align-self: center;
+}
+.section4{
+    display: flex;
+    background-color: white;  
+    border-radius: 3em;     
+}
+.section4{
+    display: flex;
+    text-align: justify;
+    flex-wrap: wrap;
+    margin: 1cm;
+}
+.textenoir{
+    color: black;
+    font-size: 1.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.nav3{
+    list-style: none;
+    color: white;
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;  
+}
+.nav3{
+    display: flex;
+    background-color: orange;  
+    border-radius: 1em; 
+}
+
+footer{ /*baniere du bas*/
+    background-color:rgb(1, 1, 11);
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+    opacity: inherit;
+    margin-top: 1cm;
+}
+.nav2{
+    list-style: none;
+    color: white;
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+}
+.nav2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
